@@ -1,21 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-const Footer = () => {
-const [year, setYear] = useState<Number | null>(null)
-
-  useEffect(() => {
-    const getFullYear = () => {
-      setYear(new Date().getFullYear())
-    }    
-
-    getFullYear()
-  }, [])
-
-return (
+const Footer = () => 
   <footer>
-    <p>&copy; {year} Ryan Ponce</p>
+    <p>&copy; {new Date().getFullYear()} Ryan Ponce</p>
   </footer>
-)
-}
 
 export default Footer;
