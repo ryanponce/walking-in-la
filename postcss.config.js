@@ -5,7 +5,7 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
     "./components/**/*.tsx",
   ],
 
-  whitelist: ['.bg-green-200', '.text-black', '.font-sans'],
+  whitelist: ['bg-green-200', 'text-black', 'font-sans'],
 
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
