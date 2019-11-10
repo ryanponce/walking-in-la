@@ -17,14 +17,6 @@ export default class MyApp extends App {
         </main>
 
         <Footer />
-
-        <style jsx global>
-          {`
-            .body {
-              @apply text-green-200 text-black font-sans;
-            }
-          `}
-        </style>
       </div>
     );
   }
