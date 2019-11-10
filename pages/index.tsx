@@ -9,7 +9,7 @@ const Home = () => (
       <link rel='icon' href='/favicon.ico' />
     </Head>
     
-    <PageTitle>Recent Walks</PageTitle>
+    <PageTitle>All Walks</PageTitle>
   </div>
 )
 
